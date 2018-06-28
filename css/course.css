@@ -1,0 +1,312 @@
+    body,div,ul,li,img,a,span{
+        margin:0;
+        padding:0;
+    }
+
+    /* 网页头部 */
+    nav{
+        width: 100%;
+        height: 97px;
+    }
+    .mainnav{
+        width: 1000px;
+        height: 97px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background: red; */
+    }
+    .logo{
+        width: 307px;
+        height: 61px;
+        float: left;
+        margin: 20px 0 0 5px;
+    }
+    .logo2{
+        width: 289px;
+        height: 68px;
+        float: left;
+        margin: 10px 0px 0px 17px;    
+    }
+    .rightnav{
+        float: right;
+        margin: 60px 0 0 0;
+    }
+    .rightnav a{
+        text-decoration: none;
+        color: #9b9b9b;
+    }
+    .home,.shouchan{
+        float: left;
+        margin: 0 15px 0 25px;
+    }
+    .home span{
+        background: url(../images/icon_bg.gif) no-repeat 0 0px;    
+        float: left;
+        width: 17px;
+        height: 15px;
+        margin-top: 2px;
+    }
+    .shouchan span{
+        background: url(../images/icon_bg.gif) no-repeat 0 -30px;    
+        float: left;
+        width: 17px;
+        height: 15px;
+        margin-top: 2px;
+    }
+    .snav{
+        width: 100%;
+        height: 40px;
+        background: url(../images/nav_bg.gif) repeat-x;
+    }
+    .snavli{
+        width: 1000px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .snavli li{
+        list-style-type: none;
+        text-align: center;
+        margin-left: 3px;   
+        margin-right: 10px; 
+        line-height: 40px;           
+        width: 83px;
+        height: 40px;
+        float: left;
+    }
+    .snavli li:hover{
+        background:url(../images/right.gif)no-repeat;
+        background-size: 81px 43px;
+        height: 43px;
+        margin-top: -3px; 
+        text-align: center; 
+    }
+    .snavli a{
+        color: #fafafa;
+        text-decoration: none;
+    }
+    .snavli ul li span{
+        background: url(../images/right.png) no-repeat  right bottom;
+        margin-top: -1px;
+        width: 12px;
+        height: 43px;
+        float: right;
+        display: none;
+    }
+    .snavli li:hover span{
+        display: block;
+    }
+    /* 网页头部结束 */
+
+
+    /* 网页主体 */
+    .zhuti{
+        width: 1000px;
+        height: 1147px;
+        margin: 0px auto 0px auto;
+    }
+
+
+    /* 网页主体你的位置 */
+    .weblocal{
+        width: 1000px;
+        height: 55px;
+        float: left;
+    }
+    .weblocal a{
+        text-decoration: none;
+        color: #909090;
+    }
+    .yourlocal{
+        width: 320px;
+        height: 55px;
+        float: left;
+        font-size: 14px;
+        line-height: 55px;
+    }
+    .localplayer{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin: 19px 8px 0px 10px;
+        background: url(../images/icon_bg.gif)no-repeat -30px -120px;
+    }
+    .toplocal{
+        float: left;
+        font-size: 14px;
+        color: #909090;
+        line-height: 55px;
+        margin-right: 5px;
+    }
+    .yourlocal span{
+        float: left;
+        color: #909090;
+        font-size: 14px;
+        line-height: 55px
+    }
+    .nlocal{
+        float: left;
+        color: #616161;
+        font-size: 14px;
+        line-height: 55px;
+        margin-left: 5px;
+    }
+    .sharesoc{
+        width: 165px;
+        height: 55px;
+        float: right;
+    }
+    .sharesoc div{
+        float: left;
+        line-height: 55px;
+        margin-right: 5px;
+    }
+    /* 网页主体你的位置结束 */
+
+    .jsyi{
+        width: 1000px;
+        height: 243px;
+        float: left;
+    }
+    .jsyitop{
+        width: 1000px;
+        height: 85px;
+        float: left;
+    }
+    .jsyitop li{
+        width: 500px;
+        height: 75px;
+        float: left;
+        color: #aaaaaa;
+        line-height: 86px;
+        text-align: center;
+        list-style-type: none;
+    }
+    .diyiketangtu img{
+        width: 333px;
+        height: 128px;
+        float: left;
+    }
+    .zhumain{
+        width: 1000px;
+        height: 853px;
+        float: left;
+    }
+    .zxandrm{
+        width: 1000px;
+        height: 88px;
+        float: left;
+    }
+    .zxandrm li{
+        width: 500px;
+        height: 88px;
+        float: left;
+        color: #aaaaaa;
+        line-height: 76px;
+        text-align: center;
+        list-style-type: none;
+    }
+    .zxandrmli1{
+        width: 500px;
+        height: 76px;
+        color: #838383;
+        position: relative;
+        background: #f3f3f3;
+    }
+    .zxandrm span{
+        width: 0px;
+        height: 0px;
+        display: block;
+        margin-left: 238px;
+        position: absolute;
+        border-style: solid;
+        border-width: 12px 10px;
+        border-color:#f3f3f3 transparent transparent;
+    }
+    .zxandrmli2{
+        width: 500px;
+        height: 76px;
+        background: #e6e6e6;
+    }
+    .zxjs{
+        width: 1000px;
+        height: 765px;
+        float: left;
+        margin-top: 8px;
+    }
+    .zxjs li{
+        width: 310px;
+        height: 248px;
+        float: left;
+        line-height: 26px;
+        list-style: none;
+    }
+    .zxjs a{
+        color: #747474;
+        text-decoration: none;
+    }
+    .ztjsfont{
+        float: left;
+    }
+    .zxjslimid{
+        margin: 0px 34.5px 0px 34.5px;
+    }
+
+    /* 网页主体结束 */
+
+    /* 网页底部 */
+    footer{
+        float: left;
+        width: 100%;
+        height: 218px;
+        background: #303030;
+    }
+    .mainft{
+        width: 1000px;
+        height: 218px;
+        margin: 0 auto;
+    }
+
+    .sanjiao{
+        position:relative;
+        line-height: 39px;
+        color: #fff;
+        font-size: 12px;
+        margin-left: 90px;
+    }
+    .sanjiao span{
+        display:block;
+        width:0;
+        height:0;
+        border-width:12px 12px;
+        border-style:solid;
+        border-color:rgb(244, 244, 244) transparent transparent;
+        position:absolute;
+        top:0px;
+        left:0px;
+    }
+    .friendlink img{
+        margin-left: 12px;
+    }
+    .friendlink{
+        width: 700px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .friendlink span{
+        line-height: 56px;
+        display: block;
+        width: 80px;
+        height: 40px;
+        float: left;
+        color: #fff;
+    }
+    .ffont{
+        color: #909090;
+        font-size: 13px;
+        text-align: center;
+        line-height: 22px;
+
+    }
+    /* 网页底部结束 */
+

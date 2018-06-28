@@ -1,0 +1,653 @@
+body,div,ul,li,img,a,span{
+    margin:0;
+    padding:0;
+}
+
+/* 网页头部 */
+nav{
+    width: 100%;
+    height: 97px;
+}
+.mainnav{
+    width: 1000px;
+    height: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: red; */
+}
+.logo{
+    width: 307px;
+    height: 61px;
+    float: left;
+    margin: 20px 0 0 5px;
+}
+.logo2{
+    width: 289px;
+    height: 68px;
+    float: left;
+    margin: 10px 0px 0px 17px;    
+}
+.rightnav{
+    float: right;
+    margin: 60px 0 0 0;
+}
+.rightnav a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+.home,.shouchan{
+    float: left;
+    margin: 0 15px 0 25px;
+}
+.home span{
+    background: url(../images/icon_bg.gif) no-repeat 0 0px;    
+    float: left;
+    width: 17px;
+    height: 15px;
+    margin-top: 2px;
+}
+.shouchan span{
+    background: url(../images/icon_bg.gif) no-repeat 0 -30px;    
+    float: left;
+    width: 17px;
+    height: 15px;
+    margin-top: 2px;
+}
+.snav{
+    width: 100%;
+    height: 40px;
+    background: url(../images/nav_bg.gif) repeat-x;
+}
+.snavli{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.snavli li{
+    list-style-type: none;
+    text-align: center; 
+    margin-left: 3px;  
+    margin-right: 10px; 
+    line-height: 40px;           
+    width: 83px;
+    height: 40px;
+    float: left;
+}
+.snavli li:hover{
+    background:url(../images/right.gif)no-repeat;
+    background-size: 81px 43px;
+    height: 43px;
+    margin-top: -3px; 
+    text-align: center; 
+}
+.snavli a{
+    color: #fafafa;
+    text-decoration: none;
+}
+.snavli ul li span{
+    background: url(../images/right.png) no-repeat  right bottom;
+    margin-top: -1px;
+    width: 12px;
+    height: 43px;
+    float: right;
+    display: none;
+}
+.snavli li:hover span{
+    display: block;
+}
+/* 网页头部结束 */
+
+
+/* 轮播图 */
+.banner{
+    width: 1000px;
+    height: 285px;
+    margin: 14px auto 15px auto;
+}
+
+
+.jieshao{
+    width: 245px;
+    height: 285px;
+    background: #201e1f;
+    float: right;
+    color: #ffffff
+}
+.jies{
+    margin: 50px 0 15px 30px;
+}
+.tupian{
+    margin:0 0 24px 30px;
+}
+.sjies{
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+/* 轮播图结束 */
+
+
+/* 通告部分 */
+.tonggao{
+    width: 1000px;
+    height: 32px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #c4c4c4;
+}
+.tongleft{
+    width: 97px;
+    height: 32px;
+    color: #393939;
+    line-height: 32px;
+    text-align: center;
+    border-right: 1px solid #c4c4c4;
+}
+
+
+
+
+
+/* 通告部分结束 */
+
+/* 网页主体 */
+.zhuti{
+    width: 1000px;
+    height: 620px;
+    margin: 15px auto 0 auto;
+    /* background: skyblue; */
+}
+.zhuleft{
+    width: 755px;
+    height: 420px;
+    float: left;
+}
+.zhutop{
+    width: 755px;
+    height: 210px;
+}
+.topone{
+    width: 237px;
+    height: 210px;
+    margin-bottom: 15px;
+    float: left;
+}
+.toptwo{
+    width: 510px;
+    height: 210px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    float: left;
+}
+/* 第一个模块 */
+.mokuai{
+    width: 237px;
+    height: 35px;
+}
+.mokuail{
+    width: 5px;
+    height: 35px;
+    float: left;
+    background: url(../images/left_message.png);
+}
+.mokuair{
+    width: 232px;
+    height: 35px;
+    float: left;
+    color: #fff;
+    line-height: 35px;
+    background: url(../images/module_title.png);
+
+}
+.mokuaiplayer{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 8px 8px 0px 14px;
+    background: url(../images/icon_bg.gif) no-repeat 0px -56px;
+}
+.toponeir{
+    width: 237px;
+    height: 175px;
+    float: left;
+    background: url(../images/course_bg.png);
+}
+.onesanjiao{
+    width: 16px;
+    height: 8px;
+    float: left;
+    margin: 0 0 20px 50px;
+    background: url(../images/icon8.gif);
+}
+.neironlink{
+    width: 202px;
+    height: 117px;
+    margin-left: 15px;
+    float: left; 
+    font-size: 13px;
+}
+.neironlink a{
+    text-decoration: none;
+    color: #000;
+}
+.neironlink div{
+    width: 97px;
+    height: 24px;
+    background: #e4e4e4;
+    margin-bottom: 7px;
+    line-height: 24px;
+    float: left;
+}
+.nrlinkl{
+    margin-right: 8px;
+}
+.nrlinkl i ,.nrlinkr i{
+    display: block;
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin: 4px 15px 0px 4px;
+    background: url(../images/icon_bg.gif) no-repeat 0px -90px;
+}
+/* 第一个模块结束 */
+
+/* 第二模块 */
+
+.twdongtai{
+    width: 508px;
+    height: 35px;
+    border: 1px solid #c4c4c4;
+    border-bottom: 1px solid #fd4a13;
+}
+.zydt, .hydt{
+    float: left;
+    line-height: 35px;
+    width: 91px;
+    height: 35px;
+    margin-left: 12px;
+    text-align: center;
+}
+.zydt{
+    background: url(../images/dongtai_bg.png);
+}
+.twneir{
+    width: 510px;
+    height: 175px;
+    float: left;
+    background: gray;
+}
+.more{
+    float: right;
+    margin: 6px 13px 0 0;
+}
+
+/* 第二模块结束 */
+
+.topone2{
+    width: 237px;
+    height: 196px;
+    margin-bottom: 15px;
+    float: left;
+}
+.toptwo2{
+    width: 510px;
+    height: 196px;
+    margin-left: 8px;
+    /* margin-bottom: 15px; */
+    float: left;
+}
+/* 第三个模块 */
+.zhaoping{
+    border: 1px solid #c4c4c4;  
+    line-height: 33px;  
+    width: 235px;
+    height: 33px;
+    float: left;
+}
+.zptu{
+    width: 16px;
+    height: 14px;
+    margin: 8px 5px 0px 8px;
+    float: left;
+    background: url(../images/icon_bg.gif) no-repeat 0px -150px;
+}
+.more2{
+    float: right;
+    margin: 0px 10px 0 0;
+}
+.more2 a{
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+.zpnr{
+    width: 237px;
+    height: 164px;
+    float: left;
+}
+.zplist{
+    width: 204px;
+    height: 124px;
+    margin: 20px auto 0px auto;
+}
+.zplist li{
+    font-size: 14px;
+    list-style: none;
+}
+.zplist a{
+    line-height: 26px;
+    text-decoration: none;
+    color: #000;
+}
+.zplisttu{
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    background: url(../images/icon_bg.gif)no-repeat -58px -28px;
+}
+
+/* 第三个模块结束 */
+
+/* 第四个模块 */
+.szdw{
+    width: 508px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #c4c4c4;
+}
+.teachpic{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 5px 10px 0px 10px;
+    background: url(../images/icon_bg.gif) no-repeat 0px -177px;
+}
+.more2{
+    float: right;
+    margin: 2px 13px 0 0;
+}
+.szdwnr{
+    width: 510px;
+    height: 162px;
+    float: left;
+}
+.szdwjs{
+    width: 468px;
+    height: 136px;
+    margin: 20px auto 0 auto;
+}
+.szdwjs img{
+    width: 93px;
+    height: 111px;
+}
+.teacher{
+    width: 93px;
+    height: 136px;
+    margin-left: 13px;
+    margin-right: 10px;
+    float: left;
+}
+.wenzi{
+    width: 93px;
+    height: 11px;
+    float: left;
+    font-size: 13px;
+}
+
+/* 第四个模块结束 */
+
+/* 第五个模块 */
+.zhuright{
+    width: 233px;
+    height: 331px;
+    float: right;
+    background: url(../images/course_bg.png);
+}
+.jingpin , .courses{
+    float: left;
+    font-size: 14px;
+}
+.jingpin{
+    margin-right: 10px;
+    color: #393939;
+    font-weight: 900;
+}
+.courses{
+    color: #676767;
+}
+.jpjs{
+    float: left;
+    margin: 20px 0px 0px 27px;
+}
+.kecheng{
+    width: 205px;
+    height: 250px;
+    float: left;
+    margin: 30px 0px 0px 14px;
+    background: #ffffff;
+}
+.kecheng a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    line-height: 40px;
+}
+.kcgz{
+    width: 205px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #e8e8e8;
+}
+.bge,.gge,.rge,.zge,.yge{
+    width: 4px;
+    height: 19px;
+    float: left;
+    margin: 11px 14px 0px 0px;
+}
+.bge{
+    background: #0080db;
+}
+.gge{
+    background: #61a301;
+}
+.rge{
+    background: #f50149;
+}
+.zge{
+    background: #995f91;
+}
+.yge{
+    background: #ffb409;
+}
+.btu,.gtu,.rtu,.ztu,.ytu{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 6px 10px 0px 0px;
+}
+.btu{
+    background: url(../images/icon_bg.gif)no-repeat 0px -209px;
+}
+.gtu{
+    background: url(../images/icon_bg.gif)no-repeat 0px -240px;
+}
+.rtu{
+    background: url(../images/icon_bg.gif)no-repeat 0px -270px;
+}
+.ztu{
+    background: url(../images/icon_bg.gif)no-repeat -30px 0px;
+}
+.ytu{
+    background: url(../images/icon_bg.gif)no-repeat -30px -30px;
+}
+
+
+
+.szpt{
+    border: 1px solid #e8e8e8;
+    float: left;
+    width: 230px;
+    height: 72px;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+/* 第五个模块结束 */
+/* 主体下部 */
+.zhu2down{
+    width: 1000px;
+    height: 186px;
+    float: left;
+    margin: 15px 0px 15px 0px;
+}
+.sjtongji{
+    width: 237px;
+    height: 186px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    background: #f7f7f7;
+}
+.sjtj{
+    width: 235px;
+    height: 33px;
+    line-height: 33px;
+    background: #f8f9f8;
+    border: 1px solid #c4c4c4;  
+}
+.sjtjtu{
+    width: 20px;
+    height: 16px;
+    float: left;
+    margin: 8px 8px 0px 10px;
+    background: url(../images/icon_bg.gif) no-repeat -30px -58px;
+}
+.tjsj{
+    width: 183px;
+    height: 88px;
+    float: left;
+    margin:22px 0px 0px 27px;
+}
+.zyzs{
+    float: left;
+}
+.kczs{
+    float: right;
+}
+
+.zyzhongxing{
+    width: 755px;
+    height: 186px;
+    float: left;
+    margin: 0px 0px 0px 8px;
+}
+.zyzx{
+    width: 753px;
+    height: 33px;
+    float: left;
+    line-height: 33px;
+    background: #f8f8f8;
+    border: 1px solid #c4c4c4;
+}
+.zyzxtu{
+    width: 20px;
+    height: 15px;
+    float: left;
+    margin: 8px 8px 0px 10px;
+    background: url(../images/icon_bg.gif) no-repeat -30px -58px;
+}
+.zyzxku{
+    width: 755px;
+    height: 153px;
+    float: left;
+    background: #f7f7f7;
+}
+.kulist{
+    width: 700px;
+    height: 120px;
+    float: left;
+    margin: 18px 0px 0px 40px;
+}
+.kulist li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 26px;
+}
+.kulist img{
+    width: 74px;
+    height: 96px;
+}
+.kulist a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #535353;
+}
+
+
+
+
+
+
+/* 主体下部介绍 */
+
+
+
+/* 网页主体结束 */
+
+
+
+/* 网页底部 */
+footer{
+    float: left;
+    width: 100%;
+    height: 218px;
+    background: #303030;
+}
+.mainft{
+    width: 1000px;
+    height: 218px;
+    margin: 0 auto;
+}
+
+.sanjiao{
+    position:relative;
+    line-height: 39px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 90px;
+}
+.sanjiao span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:12px 12px;
+    border-style:solid;
+    border-color:rgb(244, 244, 244) transparent transparent;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.friendlink img{
+    margin-left: 12px;
+}
+.friendlink{
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+}
+.friendlink span{
+    line-height: 56px;
+    display: block;
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: #fff;
+}
+.ffont{
+    color: #909090;
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
+
+}
+/* 网页底部结束 */
+
